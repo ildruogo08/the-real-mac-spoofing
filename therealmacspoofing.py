@@ -15,7 +15,7 @@ try:
     os.system("sudo ip link set dev " + iface + " up") 
 except:
     print("[+]I am changing your mac address")
-    print("[-]Your mac address is not now anonymous")
-print("[*]Your mac now is:" + new_mac)
+    print("[-]Your mac address is not anonymous")
+print("[*]Your mac now is:" + str(new_mac))
 print("[+]I am changing your mac address")
 print("[+]Your mac address is now anonymous")
